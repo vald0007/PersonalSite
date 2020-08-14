@@ -3,7 +3,7 @@ body{
 }
 
 .menu{
-    position: fixed;
+    position: sticky;
     display: inline-block;
     background-color: #333;
     width: 100%;
@@ -14,7 +14,6 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
 }
 
 .menu li{
@@ -24,7 +23,7 @@ body{
 }
 
 .menu li a{
-    display:block;
+    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,13 +31,49 @@ body{
 }
 
 .intro{
-    padding: 20%;
+    padding:5%;
     background-color: white;
+    border: solid;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#left{
+    float: left;
+    width: 300px;
+    border: solid;
+}
+
+#right{
+    float: right;
+    width: 300px;
+    border: solid;
+}
+
+#center{
+    margin: 0 auto;
+    width: 300px;
+    border: solid;
+}
+
+.projects, .resources, .contact{
+    border: solid;
+    text-align: center;
 }
 
 .footer-section{
     background-color: grey;
-    text-align: center;
+    
     text-decoration: none;
     padding-bottom: 5%;
+}
+
+.footer-section a{
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.social-media li{
+    float: left;
+    list-style: none;
 }
