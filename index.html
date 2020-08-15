@@ -3,6 +3,7 @@
     <head>
         <title>Maria del Mar</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ruda&display=swap" rel="stylesheet">
     </head>
 <body>
 
@@ -11,16 +12,27 @@
         <!-- Menu -->
         <nav class="menu">
             <ul> 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html#intro">Home</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#resources">Resources</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </nav>
-        <!-- About me -->
-        <div class="intro">
-            <h1>Introduction</h1>
-            <p> Hello, this is my introduction.</p>
+        <!-- About me 
+               []
+
+            [] [] []
+        -->
+        <div class="intro" id="intro">
+            <img src="Media\circle-cropped.png" class="profile-photo">
+            <h1>Maria del Mar</h1>
+            <img src="Media\Twitter.png" width="32" height="32">
+            <img src="Media\Linkedin.png" width="32" height="30">
+            <img src="Media\Github-clear.png" width="32" height="32">
+            <img src="Media\Youtube.png" width="32" height="29">
+            <p> Hello! I am a computer science senior at <a href="#">OU.</a> I am passionate about coding, peace development,
+            reading and martial arts. Welcome to my website! In the past 5 years I have acquired professional experience in both 
+            technical and non-technical projects. I hope that you enjoy my content!</p>
                 <div id="left">
                     <h3>CS Student</h3>
                 </div>
@@ -33,16 +45,13 @@
                 </div>
         </div>
 
-        <div class="projects">
+        <div class="projects" id="projects">
             <h1>My personal projects</h1>
             <h2>Personal website project</h2>
             <p>
-                Lorem Ipsum
+               This website was my first attempt to learn web development. Take a look at the code <a href="#">here.</a>
             </p>
-            <h2>Youtube</h2>
-            <p>
-                Lorem Ipsum
-            </p>
+            <h2>My Youtube Channel</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/IRZv7GH3hD4" frameborder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h2>Public Speaking</h2>
@@ -51,29 +60,33 @@
             </p>
         </div>
 
-        <div class="resources">
+        <div class="resources" id="resources">
             <h1>Academic resources</h1>
             <h5>
-                Everything I've done has been thanks to academic opportunities and scholarships. </br>
-                Here there is a list of resources that young people can apply for and use for their adventures.
+                Everything I've done has been thanks to academic opportunities and scholarships. Here there is a list of resources that young people can apply for and use for their adventures.
             </h5>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <h1>Contact me</h1>
+            <h3>Interested in working with me?</h3>
+            <p>Let's talk! Feel free to reach out to me on <a href="$">LinkedIn</a> or send me an email using the form below:</p>
         </div>
        
         <!-- Footer -->
-        <footer class="footer-section">
-            <ul class="social-media">
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-            
-            <p>This is an open source website that I created for learning purposes.
-                You can find the code <a href="https://github.com/vald0007/PersonalSite" target="_blank">here.</a></p>
-        </footer>
+        <div class="footer-section">
+            <!-- Social media links-->
+            <div class="footer-links">
+                <ul class="social-media">
+                    <li><a href="#"><img src="Media\Linkedin.png" width="32" height="30"></a></li>
+                    <li><a href="#"><img src="Media\Github.png" width="32" height="32"></a></li>
+                </ul>
+            </div>
+            <!-- Legal claim -->
+            <div class="footer-text">
+                <h5>This website is open source. I created it for learning purposes, you can find
+                    the code on <a href="$">GitHub.</a>
+                </h5>
+            </div>
+        </div>
 </body>
 </html>
