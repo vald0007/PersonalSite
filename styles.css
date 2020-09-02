@@ -79,10 +79,13 @@ body{
     width: 12%;
     margin-top: 3%;
 }
+/*
 #left:hover, #right:hover, #center:hover{
     background-color: #222;
     color: white;
 }
+*/
+
 #left{
     float: left;
     width: 20%;
