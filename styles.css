@@ -84,12 +84,7 @@ a:link, a:visited{
     text-decoration: none;
     color: rgb(102, 102, 102);
 }
-/*
-#left:hover, #right:hover, #center:hover{
-    background-color: #222;
-    color: white;
-}
-*/
+
 #left{
     float: left;
     width: 20%;
