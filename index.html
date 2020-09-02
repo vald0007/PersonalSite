@@ -23,25 +23,44 @@
 
             [] [] []
         -->
-        <div class="intro" id="intro">
+        <div class="intro" id="intro-container">
             <img src="Media\circle-cropped.png" class="profile-photo">
             <h1>Maria del Mar</h1>
             <img src="Media\Twitter.png" width="32" height="32">
             <img src="Media\Linkedin.png" width="32" height="30">
             <img src="Media\Github-clear.png" width="32" height="32">
             <img src="Media\Youtube.png" width="32" height="29">
-            <p> Hello! I am a computer science senior at <a href="#">OU.</a> I am passionate about coding, peace development,
-            reading and martial arts. Welcome to my website! In the past 5 years I have acquired professional experience in both 
-            technical and non-technical projects. I hope that you enjoy my content!</p>
+            <p> www.mariadelmar.com</p>
                 <div id="left">
-                    <h3>CS Student</h3>
+                    <h3><a href="#" onclick="showContent('studentContent')">CS Student</a></h3>
+                    <!-- Collapsible function for divs-->
+                    <script src="js\driver.js"></script>
+                        <div id="studentContent" class="about-buttons">
+                            <h5>Where I study:</h5>
+                            <p>I am a senior at The <a href="#">University of Oklahoma</a></p>
+                            <h5>Relevant coursework:</h5>
+                            <p>You can see the courses I've taken <a href="#">here</a></p>
+                            <h5>Academic interests:</h5>
+                            <p>OS, AI and UI Design</p>
+                        </div>
                 </div>
+                
                 <div id="right">
                     <a href="Media\Resume.pdf" target="_blank"><h3>My resume</h3></a>
                 </div>
                 
                 <div id="center">
-                    <h3>Software Developer </h3>
+                    <h3><a href="#" onclick="showContent('devContent')">Software Developer</a></h3>
+                    <div id="devContent" class="about-buttons">
+                        <h5>Languages I speak:</h5>
+                        <p>C, C++, Java, Python, SQL, R</p>
+                        <h5>Dev tools:</h5>
+                        <p>Linux</p>
+                        <p>Git</p>
+                        <p>GitHub</p>
+                        <p>GCP</p>
+                        <p>Terminal</p>
+                    </div>
                 </div>
         </div>
 
@@ -103,16 +122,7 @@
         <div class="contact" id="contact">
             <h1>Contact me</h1>
             <h3>Interested in working with me?</h3>
-            <p>Let's talk! Feel free to reach out to me on <a href="$">LinkedIn</a> or send me an email using the form below:</p>
-            <div class="test">
-                <form class="contact-form">
-                    <input type="text" id="name" name="first-name" placeholder=" Your name">
-                    <input type="text" id="name" name="email" placeholder=" Your email">
-                    <textarea name="message" id="message" placeholder="Your message"></textarea>
-                    <input type="submit" value="Send Request">
-                </form>
-            </div>
-
+            <p>Let's talk! Feel free to reach out to me on <a href="$">LinkedIn</a> or send me an <a href="mailto:marmochilera@gmail.com">email</p>
         </div>
        
         <!-- Footer -->
