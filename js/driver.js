@@ -6,7 +6,8 @@ function showContent(id){
   if (expandible.style.display === "none" || expandible.style.display === '') {
     console.log("Here");
     expandible.style.display = "block";
-    container.style.paddingBottom = "11%";
+    container.style.paddingBottom = "15%";
+
   } 
   else {
     console.log("Here but different");
