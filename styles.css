@@ -26,11 +26,11 @@ body{
 }
 
 #studentContent{
-    display: none;
+    display: block;
 }
 
 #devContent{
-    display: none;
+    display: block;
 }
 
 .intro, .projects, .resources, .contact a, h3, h5, p, label, input[type=submit]{
@@ -67,7 +67,7 @@ body{
 }
 
 .intro{
-    padding:5%;
+    padding:10%;
     background-color: white;
     margin-bottom: 7%;
     margin-top: 1%;
@@ -90,6 +90,9 @@ a:link, a:visited{
     width: 20%;
     border: solid;
     border-radius: 25px;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1.5%;
 }
 
 #right{
@@ -107,7 +110,7 @@ a:link, a:visited{
 }
 
 .projects{
-    margin-top: 8%; /*This will change with the collapsible*/
+    margin-top: 15%; /*This will change with the collapsible*/
     padding: 3%;
     margin-bottom: 5%;
     text-align: center;
